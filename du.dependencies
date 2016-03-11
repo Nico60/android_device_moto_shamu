@@ -1,8 +1,8 @@
 [
  {
-   "repository":  "DirtyUnicorns/android_kernel_moto_shamu",
+   "repository":  "Nico60/android_kernel_moto_shamu",
    "target_path": "kernel/moto/shamu",
-   "branch":      "m"
+   "branch":      "UTC"
  },
  {
    "repository":  "DirtyUnicorns/android_vendor_motorola",

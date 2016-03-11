@@ -20,6 +20,10 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 
+TARGET_GCC_VERSION_EXP := 4.9-cortex-a15
+KERNEL_TOOLCHAIN_PREFIX:=$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15/bin/arm-eabi-
+ENABLE_GRAPHITE := true
+
 ENABLE_CPUSETS := true
 
 TARGET_NO_BOOTLOADER := true
